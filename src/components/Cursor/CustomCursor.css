@@ -1,0 +1,11 @@
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, #ff5733, #ff9800);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.8);
+  }
+  

@@ -1,0 +1,31 @@
+.skill-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added smooth box-shadow transition */
+  text-align: center;
+  transform: translateY(0); /* Ensure the cards are aligned initially */
+}
+
+.skill-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.skill-img {
+  width: 80px;  /* Adjust the size of the image */
+  height: 80px;
+  object-fit: contain;
+}
+
+.skill-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Optional: Add some padding or margin to improve spacing between cards */
+.skill-card + .skill-card {
+  margin-top: 20px;
+}

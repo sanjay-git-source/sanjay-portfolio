@@ -1,0 +1,29 @@
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-form label {
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .contact-form .btn {
+    background: linear-gradient(135deg, #007bff, #6f42c1);
+    border: none;
+    font-size: 18px;
+  }
+  
+  .contact-form .btn:hover {
+    background: linear-gradient(135deg, #0056b3, #4e2a9a);
+  }
+  
