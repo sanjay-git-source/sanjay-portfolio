@@ -11,7 +11,7 @@ const Home = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <div className="text-center">
+      <div className="text-center ">
         <motion.img 
           src="https://i.postimg.cc/76mgdd66/profilepic.jpg"
           alt="Sanjay Kumar S" 
@@ -22,11 +22,8 @@ const Home = () => {
         />
         
         <h1 className="mt-3">Sanjay Kumar S</h1>
-        <h3 className="text-dark">Associate Software Engineer</h3>
-        <p className="lead">
-          Passionate about building innovative solutions using Laravel, React.js, and Spring Boot. 
-          Experienced in web development and problem-solving.
-        </p>
+        <h3 className="text-dark">Full-Stack Web Application Developer</h3>
+        <p className="lead">Crafting Modern Web Solutions | Backend Specialist | Problem Solver</p>
 
         <div className="mt-4">
           <a href="https://www.linkedin.com/in/sanjay-kumar-5194a7343" target="_blank" className="btn btn-primary mx-2">
@@ -35,7 +32,7 @@ const Home = () => {
           <a href="https://github.com/sanjay-git-source" target="_blank" className="btn btn-dark mx-2">
             GitHub
           </a>
-          <a href="https://drive.google.com/file/d/1-9M5rwcHeZvO6Mvw4HHToSQ_Vv2FCxLf/view?usp=drivesdk" target="_blank" className="btn btn-primary mx-2">
+          <a href="https://drive.google.com/file/d/1EXCdawEeTSVSC6SmQwxLUjiLdQroM7KI/view?usp=drivesdk" target="_blank" className="btn btn-primary mx-2">
   View Resume
 </a>
 

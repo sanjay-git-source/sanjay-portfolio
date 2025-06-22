@@ -6,8 +6,8 @@ const CustomFooter = () => {
   return (
     <footer className="footer mt-5 text-center">
       <div className="container">
-        <p className="mb-2">Thanks for viewing my website! 😊</p>
-        <div>
+      <p className="mb-2">Thank you for visiting my portfolio. I look forward to connecting with you!</p>
+      <div>
           <a href="https://www.linkedin.com/in/sanjay-kumar-5194a7343" target="_blank" className="footer-link mx-2">
             LinkedIn
           </a>

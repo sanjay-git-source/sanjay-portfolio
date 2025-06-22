@@ -6,73 +6,78 @@ import "./Projects.css"; // Custom styles
 const projects = [
   {
     title: "Hospital Management System",
-    description: "Developed an integrated system to manage patient data, appointments, billing, and inventory, improving healthcare services.",
+    description: "A comprehensive web application for managing patient records, appointments, billing, and inventory, improving operational efficiency in healthcare services.",
     image: "https://i.postimg.cc/rw3ZYdHb/dr.jpg",
     link: "https://www.ssicomputereducation.com/HospitalManagementSystem/",
   },
   {
     title: "Finance Website Development",
-    description: "Developed a website offering financial event updates, along with admin management functionalities.",
+    description: "Developed a responsive website providing financial event updates with secure admin management features for content and user control.",
     image: "https://i.postimg.cc/rp4Z6VXp/finance.jpg",
     link: "https://kingdomsfinancial.com/",
   },
   {
     title: "SSI Website Development",
-    description: "Built a system for online assessments, automated grading, and certificate generation for an educational platform.",
+    description: "Created an online assessment platform with automated grading, dynamic result processing, and instant certificate generation for educational institutions.",
     image: "https://i.postimg.cc/zDFMXGLb/com.jpg",
     link: "https://www.new.ssicomputereducation.com/",
   },
-  
   {
     title: "Property Consultant Website",
-    description: "Designed and developed a responsive website for property consultancy, ensuring seamless user experience.",
+    description: "Designed a responsive, user-friendly property consultancy website featuring real-time listings, contact integration, and dynamic property management.",
     image: "https://i.postimg.cc/hPhrWDVq/home.png",
     link: "https://ssicomputereducation.com/ssdassetnexus.com/",
   },
   {
-    title: "Football Academy Website Development",
-    description: "Designed and developed a website featuring event updates, media content, and login options for admins and members.",
+    title: "Football Academy Website",
+    description: "Built a modern website for a football academy, showcasing event updates, photo galleries, and member login functionality for players and administrators.",
     image: "https://i.postimg.cc/RZNbR1gK/fc.jpg",
     link: "https://ssicomputereducation.com/mariyafootballclub.com/",
   },
   {
     title: "Supermarket Billing Software (.exe)",
-    description: "Developed a Java-based billing system with SQL database integration for efficient supermarket operations.",
+    description: "Java-based desktop application for efficient billing operations in supermarkets, featuring SQL database integration and inventory management capabilities.",
     image: "https://i.postimg.cc/7Zsk2KdB/billing.jpg",
     link: "https://github.com/sanjay-git-source/BillingSoftware",
   },
   {
     title: "Spring Boot CRUD Application",
-    description: "Developed a CRUD application using Spring Boot as the backend framework, MSSQL as the database, and HTML/CSS templates for the frontend.",
+    description: "Developed a CRUD web application using Spring Boot and MSSQL, managing records through a responsive HTML/CSS frontend with RESTful API integration.",
     image: "https://i.postimg.cc/mkxGFwv3/server.jpg",
     link: "https://github.com/sanjay-git-source/spring-boot-Crud",
-  },  
+  },
   {
     title: "Portfolio Website",
-    description: "A personal portfolio website built using React.js and Bootstrap, showcasing skills and projects.",
+    description: "A personal portfolio built with React.js and Bootstrap to showcase my skills, projects, and professional experience in a clean and interactive layout.",
     image: "https://i.postimg.cc/wBzLvgRM/potfolio.jpg",
     link: "https://sanjs-portfolio.netlify.app/",
   },
   {
-    title: "Chatapp",
-    description: "Developed a real-time chat application by using PHP, JavaScript, and MySQL. ",
+    title: "ChatApp",
+    description: "Real-time chat application developed using PHP, JavaScript, and MySQL with secure login, live messaging, and user management features.",
     image: "https://i.postimg.cc/m2Wh83zV/chatapp.jpg",
     link: "https://github.com/sanjay-git-source/ChatApp",
   },
   {
-    title: "Netflix-Clone",
-    description: "Developed a Netflix Clone by using Laravel as the backend framework and MSSQL as the database.",
+    title: "Netflix Clone",
+    description: "A video streaming platform clone created using Laravel and MSSQL, featuring dynamic content management, user authentication, and media playback functionalities.",
     image: "https://i.postimg.cc/B6tJnb8j/netflix.jpg",
     link: "https://github.com/sanjay-git-source/netflix-clone",
   },
   {
     title: "React + Laravel CRUD",
-    description: "Developed a full-stack CRUD application using React for the frontend, Laravel as the backend framework, and MySQL as the database.",
+    description: "Full-stack CRUD application combining React for the frontend, Laravel for the backend, and MySQL for data storage with seamless API integration.",
     image: "https://i.postimg.cc/zvW8dMCP/reactapp.jpg",
     link: "https://github.com/sanjay-git-source/ReactappWithLaravel",
-  }
-  
+  },
+  {
+    title: "Sporty-Shop (E-Commerce)",
+    description: "An e-commerce website with product filtering by size, color, category, and fabric. Includes admin product management, order system, and email notifications for customers and admins, built using PHP, JavaScript, and MySQL.",
+    image: "https://i.postimg.cc/HnG6yc1H/banner-1.jpg", 
+    link: "https://github.com/sanjay-git-source/sporty-shop",
+  },
 ];
+
 
 const Projects = () => {
   return (

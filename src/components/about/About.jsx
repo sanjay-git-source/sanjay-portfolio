@@ -7,8 +7,8 @@ const About = () => {
   return (
     <motion.div
       className="container mt-5"
-      initial={{ opacity: 0, x: -100 }}  // Start off the screen
-      whileInView={{ opacity: 1, x: 0 }}  // Trigger when in view
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
       <h2 className="text-center mb-4">About Me</h2>
@@ -18,29 +18,45 @@ const About = () => {
             src="https://i.postimg.cc/76mgdd66/profilepic.jpg"
             alt="Profile"
             className="img-fluid rounded-circle"
-            initial={{ opacity: 0, x: -50 }}  // Start left
-            whileInView={{ opacity: 1, x: 0 }}  // Animate into view
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           />
         </div>
         <div className="col-md-8">
           <motion.p
             className="lead about-text"
-            initial={{ opacity: 0, x: 50 }}  // Start from the right
-            whileInView={{ opacity: 1, x: 0 }}  // Animate to position
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Hello, I'm Sanjay Kumar S, 
-            As an Associate Software Engineer with a strong foundation in software development and web technologies, I am passionate about crafting innovative solutions that enhance efficiency and user experiences. With hands-on experience in designing and implementing projects like Smart Street Light systems and dynamic websites, I specialize in technologies such as HTML, CSS, JavaScript, PHP, Laravel and Spring Boot.
-            A mechanical engineering graduate with an 81% academic record, I have successfully transitioned into the tech world, leveraging my problem-solving skills and adaptability to contribute meaningfully to diverse projects. I am eager to collaborate on challenging assignments that push the boundaries of technology while fostering continuous learning and professional growth.
+            Hello, I'm <strong>Sanjay Kumar S</strong>, a dedicated Web Application Developer 
+            with a strong track record in building scalable, secure, and high-performance web solutions. 
+            I specialize in backend development and full-stack technologies including <strong>Laravel</strong>, <strong>Vue.js</strong>, 
+            <strong>React.js</strong>, <strong>Spring Boot</strong>, and <strong>PHP</strong>. Currently, I'm working at 
+            <strong> Trisan Ventures Private Limited</strong>, developing dynamic web applications and collaborating 
+            closely with UI/UX teams to deliver seamless user experiences.
           </motion.p>
           <motion.p
             className="lead about-text"
-            initial={{ opacity: 0, x: 50 }}  // Start from the right
-            whileInView={{ opacity: 1, x: 0 }}  // Animate to position
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            In my spare time, I love experimenting with new technologies, contributing to open-source projects, and continuously improving my skills. Feel free to browse my projects, and don't hesitate to get in touch!
+            A Mechanical Engineering graduate turned software developer, I’ve leveraged my problem-solving mindset 
+            and adaptability across diverse projects — from <strong>Hospital Management Systems</strong> to 
+            <strong> E-Commerce websites</strong> and <strong>Financial Platforms</strong>. My project experience reflects 
+            my ability to plan, build, and deliver real-world digital solutions.
+          </motion.p>
+          <motion.p
+            className="lead about-text"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, delay: 1.5 }}
+          >
+            I’m passionate about continuous learning, exploring new technologies, and refining my development workflow.
+            Outside of work, you’ll find me experimenting with new frameworks, contributing to projects, and exploring 
+            the latest in web technologies. Feel free to check out my work and connect!
           </motion.p>
         </div>
       </div>
