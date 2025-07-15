@@ -13,7 +13,7 @@ import Skills from "./components/skills/Skills"; // Skills section
 function App() {
   return (
     <>
-      <CustomCursor />
+      
       <CustomNavbar />
       <ScrollToTop/>
 

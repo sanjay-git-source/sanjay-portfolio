@@ -22,10 +22,10 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #007bff, #6f42c1);
+  background: linear-gradient(135deg, #7367f0, #5f27cd);
   border: none;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #0056b3, #4e2a9a);
+  background: linear-gradient(135deg, #8e7bfa, #7f4ced);
 }

@@ -11,7 +11,7 @@ const Skills = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="row text-center">
-      <h2>My Skills</h2>
+      <h2 className="mb-2">Tech Stack</h2>
         {/* C */}
         <div className="col-md-3 mb-4">
         <motion.div

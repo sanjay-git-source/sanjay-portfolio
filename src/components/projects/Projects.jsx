@@ -87,9 +87,8 @@ const Projects = () => {
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
   >
-    <h2 className="text-center mb-4">My Projects</h2>
-    
     <div className="row">
+    <h2 className="text-center mb-2">Projects</h2>
       {projects.map((project, index) => (
         <motion.div 
           key={index} 

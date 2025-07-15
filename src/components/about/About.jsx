@@ -11,21 +11,11 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
-      <h2 className="text-center mb-4">About Me</h2>
+      <h2 className="text-center mb-2">Who I Am</h2>
       <div className="row">
-        <div className="col-md-4">
-          <motion.img
-            src="https://i.postimg.cc/76mgdd66/profilepic.jpg"
-            alt="Profile"
-            className="img-fluid rounded-circle"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1 }}
-          />
-        </div>
-        <div className="col-md-8">
+        <div className="col-md-12">
           <motion.p
-            className="lead about-text"
+            className="about-text"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -38,7 +28,7 @@ const About = () => {
             closely with UI/UX teams to deliver seamless user experiences.
           </motion.p>
           <motion.p
-            className="lead about-text"
+            className="about-text"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1 }}
@@ -49,7 +39,7 @@ const About = () => {
             my ability to plan, build, and deliver real-world digital solutions.
           </motion.p>
           <motion.p
-            className="lead about-text"
+            className="about-text"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 1.5 }}
