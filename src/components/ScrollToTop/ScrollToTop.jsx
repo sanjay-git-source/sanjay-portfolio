@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaArrowUp } from "react-icons/fa"; // Using FontAwesome arrow icon
-import './ScrollToTop.css'
+import "./ScrollToTop.css";
 
 const ScrollToTop = () => {
   const [showButton, setShowButton] = useState(false);

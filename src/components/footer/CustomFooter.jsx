@@ -6,16 +6,29 @@ const CustomFooter = () => {
   return (
     <footer className="footer mt-5 text-center">
       <div className="container">
-      <p className="mb-2">Thank you for visiting my portfolio. I look forward to connecting with you!</p>
-      <div>
-          <a href="https://www.linkedin.com/in/sanjay-kumar-5194a7343" target="_blank" className="footer-link mx-2">
+        <p className="mb-2">
+          Thank you for visiting my portfolio. I look forward to connecting with
+          you!
+        </p>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/sanjay-kumar-5194a7343"
+            target="_blank"
+            className="footer-link mx-2"
+          >
             LinkedIn
           </a>
-          <a href="https://github.com/sanjay-git-source" target="_blank" className="footer-link mx-2">
+          <a
+            href="https://github.com/sanjay-git-source"
+            target="_blank"
+            className="footer-link mx-2"
+          >
             GitHub
           </a>
         </div>
-        <p className="mt-2">&copy; {new Date().getFullYear()} Sanjay Kumar S | All Rights Reserved</p>
+        <p className="mt-2">
+          &copy; {new Date().getFullYear()} Sanjay Kumar S | All Rights Reserved
+        </p>
       </div>
     </footer>
   );

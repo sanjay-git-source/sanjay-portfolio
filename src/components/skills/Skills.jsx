@@ -11,15 +11,15 @@ const Skills = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="row text-center">
-      <h2 className="mb-2">Tech Stack</h2>
+        <h2 className="mb-2">Tech Stack</h2>
         {/* C */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/mDQn9b8n/c.png" // Add your image for C
               alt="C"
@@ -31,12 +31,12 @@ const Skills = () => {
 
         {/* C++ */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/BQZz8fDh/cpp.png" // Add your image for C++
               alt="C++"
@@ -65,12 +65,12 @@ const Skills = () => {
 
         {/* Java */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/44PLR2Mp/java.png" // Add your image for Java
               alt="Java"
@@ -82,12 +82,12 @@ const Skills = () => {
 
         {/* HTML */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/mkLmF7cc/html.png" // Add your image for HTML
               alt="HTML"
@@ -99,12 +99,12 @@ const Skills = () => {
 
         {/* CSS */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/xTs4Mp39/css.png" // Add your image for CSS
               alt="CSS"
@@ -116,12 +116,12 @@ const Skills = () => {
 
         {/* JavaScript */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/J0pP3tJp/js.png" // Add your image for JavaScript
               alt="JavaScript"
@@ -133,12 +133,12 @@ const Skills = () => {
 
         {/* PHP */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/NGd4z994/php.png" // Add your image for PHP
               alt="PHP"
@@ -150,12 +150,12 @@ const Skills = () => {
 
         {/* SQL Server */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/q72wb1yh/mssql.png" // Add your image for SQL Server
               alt="SQL Server"
@@ -167,12 +167,12 @@ const Skills = () => {
 
         {/* MySQL */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/B6sgd2Bh/mysql.png" // Add your image for MySQL
               alt="MySQL"
@@ -202,12 +202,12 @@ const Skills = () => {
  */}
         {/* Laravel */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/2Sb2vk5x/laravel.png" // Add your image for Laravel
               alt="Laravel"
@@ -219,12 +219,12 @@ const Skills = () => {
 
         {/* React JS */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/jd9hRphn/react.png" // Add your image for React
               alt="React JS"
@@ -236,12 +236,12 @@ const Skills = () => {
 
         {/* Spring Boot */}
         <div className="col-md-3 mb-4">
-        <motion.div
-  className="skill-card"
-  whileInView={{ opacity: 1, y: 0 }}  // animate when the element enters the viewport
-  initial={{ opacity: 0, y: 50 }}    // initial state before it enters the viewport
-  transition={{ duration: 0.8 }}
->
+          <motion.div
+            className="skill-card"
+            whileInView={{ opacity: 1, y: 0 }} // animate when the element enters the viewport
+            initial={{ opacity: 0, y: 50 }} // initial state before it enters the viewport
+            transition={{ duration: 0.8 }}
+          >
             <img
               src="https://i.postimg.cc/3wjjCdQ2/springboot.png" // Add your image for Spring Boot
               alt="Spring Boot"

@@ -13,9 +13,8 @@ import Skills from "./components/skills/Skills"; // Skills section
 function App() {
   return (
     <>
-      
       <CustomNavbar />
-      <ScrollToTop/>
+      <ScrollToTop />
 
       {/* Add IDs for Smooth Scrolling */}
       <div id="home">
