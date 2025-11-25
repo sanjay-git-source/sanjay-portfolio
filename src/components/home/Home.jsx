@@ -45,7 +45,7 @@ const Home = () => {
             GitHub
           </a>
           <a
-            href="/resume/Sanjay_Kumar_resume.pdf"
+            href="/resume/Sanjay_Kumar_CV.pdf"
             className="button me-3"
             download
           >
