@@ -31,7 +31,7 @@ const Home = () => {
 
         <div className="mt-4">
           <a
-            href="https://www.linkedin.com/in/sanjay-kumar-5194a7343"
+            href="www.linkedin.com/in/sanjay-kumar-169676393"
             target="_blank"
             className="button me-3"
           >
